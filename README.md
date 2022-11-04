@@ -24,7 +24,7 @@ b.	Host allocated memory size [1024]
 a.	ATA channel 0:
 i.	First HD/CD on channel 0
 1.	Type of ATA device [disk]
-2.	Path or physical device name [boot.img]
+2.	Path or physical device name <span style="color: red;">[boot.img]</span>
 3.	Cylinders [20]
 4.	Heads [16]
 5.	Sectors per track [63]
