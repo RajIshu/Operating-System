@@ -13,16 +13,16 @@
 	* X86-64 and long mode [enable]
 	* 1G pages support in long mode [enable]
 13.	Edit Memory:
-a.	Memory size [1024]
-b.	Host allocated memory size [1024]
+	* Memory size [1024]
+	* Host allocated memory size [1024]
 14.	Edit Disk & Boot:
-a.	ATA channel 0:
-i.	First HD/CD on channel 0
-1.	Type of ATA device [disk]
-2.	Path or physical device name [boot.img]
-3.	Cylinders [20]
-4.	Heads [16]
-5.	Sectors per track [63]
+	* ATA channel 0:
+		**First HD/CD on channel 0
+			***Type of ATA device [disk]
+			***Path or physical device name [boot.img]
+			***Cylinders [20]
+			***Heads [16]
+			***Sectors per track [63]
 
 b.	Boot Options
 i.	Boot drive #1 [disk]
