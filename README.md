@@ -31,15 +31,14 @@
 17.	Install C/C++ and x8664assembly (by fredhappyface) extensions in vs code.
 18.	Install Rufus which is used to create bootable usb flash drive: https://rufus.ie/en/
 19.	Write assembly code (boot.asm) and build script file (build.sh)
-20.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use cd /mnt/[Local drive] command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
+20.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use ```cd /mnt/[Local drive]``` command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
 
-NOTE:
-Mounting the drive and moving to the where it is located is very time-consuming task. So, we can take help of aliases. 
-Aliases are like custom shortcuts used to represent a command (or set of commands) executed.
-We can make aliases using this command: alias [shortName]="[Your custom command]"
-Example:
-	I have made an alias for myself like this:
-	alias cdmos="cd /mnt/d/PROJECT/Operating\ System/"
+## NOTE:
+- Mounting the drive and moving to the where it is located is very time-consuming task. So, we can take help of aliases. 
+- Aliases are like custom shortcuts used to represent a command (or set of commands) executed.
+- We can make aliases using this command: alias [shortName]="[Your custom command]"
+	+ Example:
+		I have made an alias for myself like this: ```alias cdmos="cd /mnt/d/PROJECT/Operating\ System/"```
 Remember, these aliases will be temporary. But we can make them permanent if we add this alias in ahell configuration profile file. 
 We can run vim ~/.bashrc for Bash shell or terminal.
 It will open the file and then we have to add the alias at the last of the file and save and close.
