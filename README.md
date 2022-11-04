@@ -11,7 +11,7 @@
 &nbsp;
 &nbsp;
 ![image](https://github.com/RajIshu/Operating-System/blob/master/ReadmeFile/powershell_bi.jpg)
-<img src="ReadmeFile/powershell_bi.jpg" alt="drawing" width="200"/>
+<img src="ReadmeFile/powershell_bi.jpg" alt="drawing" width="600"/>
 11.	Open Bosch
 12.	Edit CPUID:
 a.	X86-64 and long mode [enable]
