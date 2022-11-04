@@ -1,14 +1,15 @@
 # Operating-System
 1.	Install and setup WSL: https://docs.microsoft.com/en-us/windows/wsl/install-manual
-2.	Update Ubuntu first: sudo apt-get update
+2.	Update Ubuntu first: ```sudo apt-get update```
 3.	Install GCC: ```sudo apt install gcc```
-4.	Check GCC installation status: gcc -v
-5.	Install Nasm assembler (Used for assembly code): sudo apt install nasm
-6.	Check Nasm installation: nasm -v
+4.	Check GCC installation status: ```gcc -v```
+5.	Install Nasm assembler (Used for assembly code): ```sudo apt install nasm```
+6.	Check Nasm installation: ```nasm -v```
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine): https://bochs.sourceforge.io/
 8.	Edit environment variable
 9.	Open powershell and run ‘bximage’ to create image file and follow as per the image given below:
-
+<br>
+![image](https://github.com/RajIshu/Operating-System/blob/master/ReadmeFile/powershell_bi.jpg)
 11.	Open Bosch
 12.	Edit CPUID:
 a.	X86-64 and long mode [enable]
