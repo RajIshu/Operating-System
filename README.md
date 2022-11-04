@@ -10,8 +10,8 @@
 9.	Open powershell and run ‘bximage’ to create image file.
 11.	Open Bosch
 12.	Edit CPUID:
-* X86-64 and long mode [enable]
-* 1G pages support in long mode [enable]
+	* X86-64 and long mode [enable]
+	* 1G pages support in long mode [enable]
 13.	Edit Memory:
 a.	Memory size [1024]
 b.	Host allocated memory size [1024]
