@@ -36,7 +36,7 @@
 ## NOTE:
 - Mounting the drive and moving to the where it is located is very time-consuming task. So, we can take help of aliases. 
 - Aliases are like custom shortcuts used to represent a command (or set of commands) executed.
-- We can make aliases using this command: alias [shortName]="[Your custom command]"
+- We can make aliases using this command: ```alias [shortName]="[Your custom command]"```
 	+ Example:
 		I have made an alias for myself like this: ```alias cdmos="cd /mnt/d/PROJECT/Operating\ System/"```
 Remember, these aliases will be temporary. But we can make them permanent if we add this alias in ahell configuration profile file. 
@@ -50,7 +50,7 @@ We can even list all the alias using alias command.
 
 20.	Now it’s time to build the project. Run the build script using ./build.sh
 21.	We would be able to see the generated binary file using hexdump command
-Example: hexdump -c boot.bin
+Example: ```hexdump -c boot.bin```
 22.	Now open bochs configuration file and change the boot.img directory path at line 13
-It must look like this: ata0-master: type=disk, path="D:\COURSES\BTECH\PROJECT\Operating System\Image\boot.img"
+It must look like this: ```ata0-master: type=disk, path="D:\PROJECT\Operating System\Image\boot.img"```
 23.	Now start bochs configuration file by double clicking on it.
