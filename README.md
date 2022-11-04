@@ -8,11 +8,11 @@
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine): https://bochs.sourceforge.io/
 8.	Edit environment variable
 9.	Open powershell and run ‘bximage’ to create image file and follow as per the image given below:
-<img src="ReadmeFile/powershell_bi.jpg" alt="drawing" width="600" align="centre"/>
+<img src="ReadmeFile/powershell_bi.jpg" alt="drawing" width="600"/>
 11.	Open Bosch
 12.	Edit CPUID:
-a.	X86-64 and long mode [enable]
-b.	1G pages support in long mode [enable]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. X86-64 and long mode [enable]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 1G pages support in long mode [enable]
 13.	Edit Memory:
 a.	Memory size [1024]
 b.	Host allocated memory size [1024]
