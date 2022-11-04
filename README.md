@@ -31,7 +31,7 @@
 17.	Install C/C++ and x8664assembly (by fredhappyface) extensions in vs code.
 18.	Install Rufus which is used to create bootable usb flash drive: https://rufus.ie/en/
 19.	Write assembly code (boot.asm) and build script file (build.sh)
-20.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use cd /mnt/<the local drive>/ command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
+20.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use cd /mnt/[Local drive] command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
 
 NOTE:
 Mounting the drive and moving to the where it is located is very time-consuming task. So, we can take help of aliases. 
@@ -49,17 +49,17 @@ If we want to use the alias from this current session then we have to run source
 
 We can even list all the alias using alias command.
 
-20.	Now it’s time to build the project. Run the build script using ./build.sh
-21.	We would be able to see the generated binary file using hexdump command
+21.	Now it’s time to build the project. Run the build script using ./build.sh
+22.	We would be able to see the generated binary file using hexdump command
 Example: hexdump -c boot.bin
-22.	Now open bochs configuration file and change the boot.img directory path at line 13
+23.	Now open bochs configuration file and change the boot.img directory path at line 13
 It must look like this: ata0-master: type=disk, path="D:\COURSES\BTECH\PROJECT\Operating System\Image\boot.img"
-23.	Now start bochs configuration file by double clicking on it.
-24.	[OPTIONAL] Now we will write the boot file into USB drive. Open Rufus. Select boot image. Select USB Drive. Click Start.
+24.	Now start bochs configuration file by double clicking on it.
+25.	[OPTIONAL] Now we will write the boot file into USB drive. Open Rufus. Select boot image. Select USB Drive. Click Start.
 Now we want to configure our Test System. Open BIOS Interface. Go to BIOS Option. Enable CSM Support.
-25.	Testing Disk Extension Service:
-a.	What is Disk Extension Service and why we need it?
-ANS: Disk extension service is just service or function bios provides to help us load the programs from the disk. In the boot up process, we need to load the loader and kernel from the disk to the memory using disk extension service.
+26.	Testing Disk Extension Service:
+	* What is Disk Extension Service and why we need it?
+	ANS: Disk extension service is just service or function bios provides to help us load the programs from the disk. In the boot up process, we need to load the loader and kernel from the disk to the memory using disk extension service.
 b.	We use BIOS disk services to load our file from disk in boot process and when we read file from disk, we should provide CHS value in order to locate the sector we want to read.
 NOTE: CHS stands for Cylinder Head Sector.
 
