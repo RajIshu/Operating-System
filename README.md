@@ -8,7 +8,6 @@
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine): https://bochs.sourceforge.io/
 8.	Edit environment variable
 9.	Open powershell and run ‘bximage’ to create image file and follow as per the image given below:
-<br>
 ![image](https://github.com/RajIshu/Operating-System/blob/master/ReadmeFile/powershell_bi.jpg)
 11.	Open Bosch
 12.	Edit CPUID:
