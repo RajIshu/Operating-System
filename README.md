@@ -8,7 +8,7 @@
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine): https://bochs.sourceforge.io/
 8.	Edit environment variable.
 9.	Open powershell and run ‘bximage’ to create image file.
-11.	Open Bosch
+11.	Open Bosch.
 12.	Edit CPUID:
 	* X86-64 and long mode [enable]
 	* 1G pages support in long mode [enable]
@@ -24,13 +24,14 @@
 			+ Heads [16]
 			+ Sectors per track [63]
 
-b.	Boot Options
-i.	Boot drive #1 [disk]
-15.	Save the configuration file and open the file in VS Code
-16.	Install C/C++ and x8664assembly (by fredhappyface) extensions in vs code.
-17.	Install Rufus which is used to create bootable usb flash drive: https://rufus.ie/en/
-18.	Write assembly code (boot.asm) and build script file (build.sh)
-19.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use cd /mnt/<the local drive>/ command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
+	* Boot Options
+		- Boot drive #1 [disk]
+15.	Save the configuration file.
+16.	Open VS Code.
+17.	Install C/C++ and x8664assembly (by fredhappyface) extensions in vs code.
+18.	Install Rufus which is used to create bootable usb flash drive: https://rufus.ie/en/
+19.	Write assembly code (boot.asm) and build script file (build.sh)
+20.	After writing codes, open Ubuntu Windows Sub-system and go to the folder where these files are located use cd /mnt/<the local drive>/ command as it will basically mount our local drive to ubuntu. (Keep these files in the same directory where boot.img file is located.)
 
 NOTE:
 Mounting the drive and moving to the where it is located is very time-consuming task. So, we can take help of aliases. 
