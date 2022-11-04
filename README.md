@@ -9,7 +9,7 @@
 8.	Edit environment variable
 9.	Open powershell and run ‘bximage’ to create image file
 10.	Enter 1 for creating harddisk image
-[image](https://user-images.githubusercontent.com/86165115/199981029-97c7dc65-a071-451b-b588-23cd8d00a0b8.png)
+![image](https://user-images.githubusercontent.com/86165115/199981029-97c7dc65-a071-451b-b588-23cd8d00a0b8.png)
 
  
 
@@ -24,7 +24,7 @@ b.	Host allocated memory size [1024]
 a.	ATA channel 0:
 i.	First HD/CD on channel 0
 1.	Type of ATA device [disk]
-2.	Path or physical device name <span style="color:red">[boot.img]</span>
+2.	Path or physical device name [<span style="color:red">boot.img</span>]
 3.	Cylinders [20]
 4.	Heads [16]
 5.	Sectors per track [63]
