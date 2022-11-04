@@ -6,9 +6,8 @@
 5.	Install Nasm assembler (Used for assembly code): ```sudo apt install nasm```
 6.	Check Nasm installation: ```nasm -v```
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine): https://bochs.sourceforge.io/
-8.	Edit environment variable
-9.	Open powershell and run ‘bximage’ to create image file and follow as per the image given below:
-<img src="ReadmeFile/powershell_bi.jpg" alt="drawing" width="600"/>
+8.	Edit environment variable.
+9.	Open powershell and run ‘bximage’ to create image file.
 11.	Open Bosch
 12.	Edit CPUID:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. X86-64 and long mode [enable]
