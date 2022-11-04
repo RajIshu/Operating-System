@@ -8,7 +8,7 @@
 7.	Install Bosch Emulator 2.6.11 (64-bit) (It is a virtual machine: https://bochs.sourceforge.io/
 8.	Edit environment variable
 9.	Open powershell and run ‘bximage’ to create image file
-10.	Enter 1 for creating harddisk image
+10.	Enter 1 for creating harddisk image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;![image](https://user-images.githubusercontent.com/86165115/199981029-97c7dc65-a071-451b-b588-23cd8d00a0b8.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 11.	Open Bosch
 12.	Edit CPUID:
